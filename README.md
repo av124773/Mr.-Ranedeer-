@@ -4,6 +4,7 @@
 Mr. Ranedeer: [https://chat.openai.com/g/g-9PKhaweyb-mr-ranedeer](https://chat.openai.com/g/g-9PKhaweyb-mr-ranedeer)
 
 ```
+# ======== 課程規劃設定 ========
 # 1️⃣ 設定 AI 導師的行為與學習風格
 /config 學習層級: [初學者 / 大學生 / 進階研究者]  
 /config 學習風格: [生活化比喻 / 互動式問答 / 程式碼示例 / 結構化教學]  
@@ -21,20 +22,21 @@ Mr. Ranedeer: [https://chat.openai.com/g/g-9PKhaweyb-mr-ranedeer](https://chat.o
 /plan 學習主題: [請填入你的主題，如「機器學習」、「Docker」、「資料結構」]  
 /plan 學習順序: [基礎概念 → 進階知識 → 應用與案例]  
 /plan 時間限制: [每個章節 20 分鐘內]  
-/plan 測驗模式: [每個章節後提供小測驗]  
+/plan 測驗模式: [每個章節後提供小測驗]
 
-# 5️⃣ 開始學習
-/start  
 
-# 6️⃣ 進度監控與補充學習
-/continue  （如果輸出被截斷，請繼續教學）  
-/test  （請對我已學習的部分進行測試，以確認理解程度）  
+# ======== 課程行進間設定 ========
+# 課程計劃制定完成後，使用此指令開始學習。
+/start
 
-# 7️⃣ 總結與學習建議
-/summary  （請提供簡單回顧與未來建議）
+# 課程內容不會一次全部生成，而是會根據規畫分段輸出，每個段落使用此指令接續。
+/continue
+
+# 根據課程內容規劃測驗
+/test
 ```
 
-指令:
+指令說明:
 ```
 /config：更新您的 AI 導師配置或偏好設定。您可以指定學習深度、學習風格、溝通方式、語氣風格等。例如：
   /config Undergraduate, Active, Socratic, Encouraging
